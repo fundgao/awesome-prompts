@@ -1,4 +1,4 @@
-# BRC20-RATS
+# FUCK BRC20-RATS
 $RATS to the moon
 
 ## Rats friend 成都线下围炉煮茶活动
