@@ -16,7 +16,13 @@
   "hero": {
     "title": "Matang Town",
     "subtitle": "Dianbai, Maoming, Guangdong · An ancient town between mountain and sea",
-    "cta": "Explore Matang"
+    "cta": "Learn more"
+  },
+  "home": {
+    "overview1": "Matang Town is part of Dianbai District, Maoming City, Guangdong. It lies in the southeast of Dianbai on the western Guangdong coast, with hills and mountains behind and the sea in front. Legend says the name comes from an immortal’s horse leaving hoof prints on a bluestone in the street. The town has a long history and a strong sense of community.",
+    "overview2": "The registered population is about 94,000. Market days (lunar 3rd, 6th, 9th) draw large crowds. Agriculture, granite quarrying, and lock-making are mainstays. Gongluoling and Chaowu Cave carry revolutionary and cultural memory. The town is a window on Dianbai’s local culture and rural revitalisation.",
+    "imageAlt": "Matang Town",
+    "learnMore": "Learn more"
   },
   "sections": {
     "location": {

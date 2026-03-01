@@ -1,42 +1,33 @@
 import { getTranslations } from "next-intl/server";
-import { SECTION_ANCHORS, type SectionId } from "@/data/matang";
+import { SECTION_IDS } from "@/data/matang";
 import { LocaleSwitcher } from "./LocaleSwitcher";
-
-const NAV_KEYS: SectionId[] = [
-  "location",
-  "population",
-  "culture",
-  "customs",
-  "food",
-  "economy",
-  "gongluoling",
-];
+import { Link } from "@/i18n/navigation";
 
 export async function Nav() {
   const t = await getTranslations("nav");
 
   return (
-    <header className="matang-nav fixed left-0 right-0 top-0 z-50 py-3">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 sm:px-6">
-        <a
-          href="#hero"
-          className="text-lg font-semibold text-white transition-colors shrink-0"
+    <header className="matang-nav fixed left-0 right-0 top-0 z-50 py-4">
+      <nav className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-4 sm:px-6 lg:px-8">
+        <Link
+          href="/"
+          className="matang-nav-home shrink-0 text-lg transition-colors"
         >
           {t("home")}
-        </a>
-        <ul className="flex flex-1 flex-wrap items-center justify-end gap-1 sm:gap-3">
-          {NAV_KEYS.map((id) => (
+        </Link>
+        <ul className="flex flex-1 flex-wrap items-center justify-end gap-0.5 sm:gap-1">
+          {SECTION_IDS.map((id) => (
             <li key={id}>
-              <a
-                href={`#${SECTION_ANCHORS[id]}`}
-                className="rounded-md px-2 py-1.5 text-sm text-white/80 transition-colors hover:bg-white/10 hover:text-white sm:px-3"
+              <Link
+                href={`/${id}`}
+                className="matang-nav-link block rounded-lg px-3 py-2 text-sm transition-colors sm:px-4"
               >
                 {t(id)}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
-        <div className="shrink-0">
+        <div className="shrink-0 pl-2">
           <LocaleSwitcher />
         </div>
       </nav>

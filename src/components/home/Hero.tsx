@@ -19,7 +19,7 @@ export async function Hero() {
         </p>
         <div className="mt-10">
           <Button asChild className="matang-btn-primary h-12 rounded-full px-8 text-base">
-            <a href="#location">{t("cta")}</a>
+            <a href="#overview">{t("cta")}</a>
           </Button>
         </div>
       </div>
