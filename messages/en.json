@@ -6,6 +6,7 @@
   "nav": {
     "home": "Home",
     "location": "Location",
+    "transport": "Transport",
     "population": "Population",
     "culture": "Culture",
     "customs": "Customs",
@@ -30,6 +31,12 @@
       "title": "Location",
       "p1": "Matang Town lies in the southeast of Dianbai District, Maoming City, Guangdong, on the western Guangdong coast. The terrain is mainly hills and mountains, higher in the west and lower in the east.",
       "p2": "The area is rich in minerals including gold, tin, and tungsten, with granite reserves of about 1 billion cubic metres, making it an important resource and agricultural town in Dianbai."
+    },
+    "transport": {
+      "title": "Transport",
+      "p1": "Matang Station is in Matang Town on the Shenzhen–Maoming railway and is an important stop on the Guangzhou–Zhanjiang high-speed line, with 2 platforms and 4 tracks. It is about 292 km from Guangzhou South and about 140 km from Zhanjiang West, a key node on the western Guangdong coastal rail corridor.",
+      "p2": "The Shuixia Road (Matang section) opened in August 2024, linking Bole Port first-class road with Provincial Road S386 north to Matang Station, providing fast access between Bole Port and the high-speed rail station for port–rail interchange. S386 and other trunk roads connect the town with Shuidong, Diancheng, Shalang, and nearby towns.",
+      "p3": "Matang is close to Bole Port; via Bole Port first-class road and Shuixia Road, the town benefits from port logistics and sea transport. Yueyun buses serve the area near Matang Station with routes to Shuidong, Diancheng, Shalang, and elsewhere, with multiple departures daily for rail and town connections."
     },
     "population": {
       "title": "Population",

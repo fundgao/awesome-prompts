@@ -25,6 +25,8 @@ export default async function SectionPage({ params }: Props) {
   const paragraphs = [t(`${section}.p1`), t(`${section}.p2`)];
   if (section === "faith") {
     paragraphs.push(t("faith.p3"), t("faith.p4"), t("faith.p5"));
+  } else if (section === "transport") {
+    paragraphs.push(t("transport.p3"));
   }
 
   return (
@@ -55,6 +57,7 @@ export default async function SectionPage({ params }: Props) {
 export function generateStaticParams() {
   const sections = [
     "location",
+    "transport",
     "population",
     "culture",
     "customs",

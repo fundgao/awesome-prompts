@@ -1,6 +1,7 @@
 /** 马踏镇介绍站 - 子页面路径与 i18n key */
 export const SECTION_IDS = [
   "location",
+  "transport",
   "population",
   "culture",
   "customs",
