@@ -4,9 +4,6 @@ import { getTranslations } from "next-intl/server";
 import { Nav } from "@/components/home/Nav";
 import { Hero } from "@/components/home/Hero";
 import { Footer } from "@/components/home/Footer";
-import { Link } from "@/i18n/navigation";
-import { SECTION_IDS } from "@/data/matang";
-import { Button } from "@/components/ui/button";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -14,7 +11,6 @@ export default async function HomePage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("home");
-  const tNav = await getTranslations("nav");
 
   return (
     <div className="min-h-screen">
@@ -64,13 +60,6 @@ export default async function HomePage({ params }: Props) {
                 sizes="(max-width: 640px) 100vw, 33vw"
               />
             </div>
-          </div>
-          <div className="mt-12 flex flex-wrap gap-3">
-            {SECTION_IDS.map((id) => (
-              <Button key={id} asChild variant="outline" className="matang-btn-outline">
-                <Link href={`/${id}`}>{tNav(id)}</Link>
-              </Button>
-            ))}
           </div>
         </section>
         <Footer />
