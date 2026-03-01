@@ -22,8 +22,10 @@ export default async function SectionPage({ params }: Props) {
   const t = await getTranslations("sections");
   const tNav = await getTranslations("nav");
   const title = t(`${section}.title`);
-  const p1 = t(`${section}.p1`);
-  const p2 = t(`${section}.p2`);
+  const paragraphs = [t(`${section}.p1`), t(`${section}.p2`)];
+  if (section === "faith") {
+    paragraphs.push(t("faith.p3"), t("faith.p4"), t("faith.p5"));
+  }
 
   return (
     <div className="min-h-screen">
@@ -37,8 +39,11 @@ export default async function SectionPage({ params }: Props) {
             {title}
           </h1>
           <div className="space-y-4 text-white/90">
-            <p className="leading-relaxed">{p1}</p>
-            <p className="leading-relaxed">{p2}</p>
+            {paragraphs.map((text, i) => (
+              <p key={`${section}-p${i + 1}`} className="leading-relaxed">
+                {text}
+              </p>
+            ))}
           </div>
         </article>
       </main>
@@ -53,6 +58,7 @@ export function generateStaticParams() {
     "population",
     "culture",
     "customs",
+    "faith",
     "food",
     "economy",
     "gongluoling",

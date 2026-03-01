@@ -9,6 +9,7 @@
     "population": "Population",
     "culture": "Culture",
     "customs": "Customs",
+    "faith": "Nianli & Faith",
     "food": "Food & People",
     "economy": "Economy",
     "gongluoling": "Gongluoling"
@@ -44,6 +45,14 @@
       "title": "Customs",
       "p1": "Local customs follow western Guangdong and Dianbai traditions: festivals, ancestor worship, dragon boat races, wedding rituals, and market-day gatherings.",
       "p2": "Around Changshan Village, temple culture such as Chaowu Temple is preserved alongside the revolutionary sites on Gongluoling, forming a \"red and green\" blend of local custom and festival atmosphere."
+    },
+    "faith": {
+      "title": "Nianli & Faith",
+      "p1": "Like much of western Guangdong and Dianbai, Matang holds \"Nianli\" as the most important folk festival of the year—often summed up as \"Nianli is bigger than New Year.\" Nianli combines worship, thanksgiving to the gods, sacrifice, prayer, and feasting. It usually falls between the first and second lunar month; each village has its own date, in three phases: \"starting Nianli,\" \"main Nianli,\" and \"Nianli tail,\" lasting one to three days.",
+      "p2": "Worship is at the heart of Nianli. Families prepare offerings—meat, wine, dishes, incense—and set them out in the village (\"setting the altar\"). When the deity statues pass by, a ritual master (\"dugong lao\") leads the crowd in three kneelings and nine prostrations toward the gods, praying for good weather and peace. Firecrackers line the route to welcome the deities; the mood is both solemn and festive.",
+      "p3": "The deity parade is the liveliest part of Nianli. Villagers chosen by lot form a procession carrying flags, drums, and gongs, and carry the deity statues through the village. Those who carry the statues are thought to be blessed for the coming year. The parade often includes Taoist gods (wind, rain, thunder, lightning, water, fire) and local figures such as Guan Yu, Kang Wang, Huaguang, and Lady Xian, reflecting the region’s \"many gods, harmony in diversity\" tradition.",
+      "p4": "Local belief centres on Lingnan sacrificial culture and Lady Xian, alongside Taoism, popular deities, and ancestor worship. Temples such as Chaowu Temple are tied to Nianli, the deity parade, and worship—they are both sacred spaces and the focus of village identity and social life.",
+      "p5": "Nianli is listed as intangible cultural heritage in Guangdong. Many from Matang return from afar for Nianli—to worship, watch the parade, and feast with family and friends—making it a key bond for local identity and kinship."
     },
     "food": {
       "title": "Food & People",

@@ -4,6 +4,7 @@ export const SECTION_IDS = [
   "population",
   "culture",
   "customs",
+  "faith",
   "food",
   "economy",
   "gongluoling",
