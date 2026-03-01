@@ -124,3 +124,79 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* 马踏镇首页 · MEXC 活动页风格：深色 + 金色点缀 */
+.theme-matang,
+.theme-matang html {
+  scroll-behavior: smooth;
+}
+.theme-matang {
+  --matang-bg: oklch(0.12 0.03 270);
+  --matang-bg-card: oklch(0.16 0.03 270);
+  --matang-gold: oklch(0.82 0.15 85);
+  --matang-gold-muted: oklch(0.72 0.12 85);
+  --matang-text: oklch(0.96 0.01 90);
+  --matang-text-muted: oklch(0.65 0.02 90);
+  --matang-border: oklch(0.25 0.02 270);
+}
+.theme-matang body {
+  background: linear-gradient(165deg, var(--matang-bg) 0%, oklch(0.08 0.04 280) 50%, var(--matang-bg) 100%);
+  color: var(--matang-text);
+  min-height: 100vh;
+}
+.theme-matang .matang-glow {
+  box-shadow: 0 0 40px oklch(0.82 0.15 85 / 0.15);
+}
+.theme-matang .matang-card {
+  background: var(--matang-bg-card);
+  border: 1px solid var(--matang-border);
+  border-radius: 1rem;
+}
+.theme-matang .matang-gold-text {
+  color: var(--matang-gold);
+}
+.theme-matang .matang-gold-border {
+  border-color: var(--matang-gold);
+}
+.theme-matang .matang-btn-primary {
+  background: linear-gradient(135deg, var(--matang-gold) 0%, var(--matang-gold-muted) 100%);
+  color: oklch(0.15 0.02 85);
+  font-weight: 600;
+}
+.theme-matang .matang-btn-primary:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 0 20px oklch(0.82 0.15 85 / 0.3);
+}
+.theme-matang .matang-btn-outline {
+  border: 1px solid var(--matang-gold);
+  color: var(--matang-gold);
+  background: transparent;
+}
+.theme-matang .matang-btn-outline:hover {
+  background: oklch(0.82 0.15 85 / 0.12);
+}
+.theme-matang .matang-nav {
+  background: oklch(0.1 0.03 270 / 0.85);
+  border-bottom: 1px solid var(--matang-border);
+  backdrop-filter: blur(12px);
+}
+.theme-matang .matang-hero-title {
+  background: linear-gradient(135deg, var(--matang-text) 0%, var(--matang-gold) 50%, var(--matang-text-muted) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.theme-matang .matang-section-title {
+  color: var(--matang-gold);
+  font-weight: 700;
+}
+.theme-matang .matang-footer {
+  border-top: 1px solid var(--matang-border);
+  color: var(--matang-text-muted);
+}
+.theme-matang a:hover {
+  color: var(--matang-gold);
+}
+.theme-matang .matang-anchor {
+  scroll-margin-top: 5rem;
+}

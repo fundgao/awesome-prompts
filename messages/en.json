@@ -1,6 +1,61 @@
 {
   "IndexPage": {
     "title": "Welcome",
-    "description": "Get started by editing page.tsx"
+    "description": "Discover Matang Town"
+  },
+  "nav": {
+    "home": "Home",
+    "location": "Location",
+    "population": "Population",
+    "culture": "Culture",
+    "customs": "Customs",
+    "food": "Food & People",
+    "economy": "Economy",
+    "gongluoling": "Gongluoling"
+  },
+  "hero": {
+    "title": "Matang Town",
+    "subtitle": "Dianbai, Maoming, Guangdong · An ancient town between mountain and sea",
+    "cta": "Explore Matang"
+  },
+  "sections": {
+    "location": {
+      "title": "Location",
+      "p1": "Matang Town lies in the southeast of Dianbai District, Maoming City, Guangdong, on the western Guangdong coast. The terrain is mainly hills and mountains, higher in the west and lower in the east.",
+      "p2": "The area is rich in minerals including gold, tin, and tungsten, with granite reserves of about 1 billion cubic metres, making it an important resource and agricultural town in Dianbai."
+    },
+    "population": {
+      "title": "Population",
+      "p1": "The town has a registered population of about 94,000 and a resident population of about 85,000. The population is predominantly Han Chinese, with a strong sense of community and clan-based settlements.",
+      "p2": "On market days (lunar calendar 3rd, 6th, 9th), the number of visitors can reach 30,000 per day, giving the town a lively commercial and daily life atmosphere."
+    },
+    "culture": {
+      "title": "Local Culture",
+      "p1": "The name Matang (\"horse hoof\") is said to come from a legend of an immortal’s horse leaving deep hoof prints on a large bluestone in the street. The old town has a long history and rich cultural heritage.",
+      "p2": "Sights such as Tizi Ridge (Liushi Ridge), Jinniu Ridge, Xianshui Qingyu (one of the old Eight Scenes of Dianbai), and Matang People’s Park are popular local landmarks and places for leisure."
+    },
+    "customs": {
+      "title": "Customs",
+      "p1": "Local customs follow western Guangdong and Dianbai traditions: festivals, ancestor worship, dragon boat races, wedding rituals, and market-day gatherings.",
+      "p2": "Around Changshan Village, temple culture such as Chaowu Temple is preserved alongside the revolutionary sites on Gongluoling, forming a \"red and green\" blend of local custom and festival atmosphere."
+    },
+    "food": {
+      "title": "Food & People",
+      "p1": "Dianbai’s famous dishes can be found in Matang too: Shuidong duck congee, Shuidong white-cut chicken, Shuidong mustard greens, Diancheng fish fritters (oyster fritters), pork offal soup, red-hearted duck eggs, and Baitangying lychees.",
+      "p2": "With mountains and sea nearby, local cuisine combines mountain produce and seafood into a distinct food culture."
+    },
+    "economy": {
+      "title": "Economy",
+      "p1": "Agriculture focuses on rice, peanuts, and sweet potatoes, making the town an important grain producer in Dianbai. Industry includes lock-making, granite quarrying, transport, construction, and catering.",
+      "p2": "In recent years local fiscal revenue and retail sales have grown steadily. Market-day trade is active, with hundreds of registered businesses, and rural revitalisation and industrial upgrading are underway."
+    },
+    "gongluoling": {
+      "title": "Gongluoling",
+      "p1": "Gongluoling is in Changshan Village near Chaowu Temple. Chaowu Cave on the ridge is an important revolutionary site, once used by figures such as Yang Ruifen. The Republican-era Dianbai County Gazetteer listed it as one of the Eight Scenes of Dianbai.",
+      "p2": "Legend also links Chaowu Cave to Lady Xian’s military and supply operations. Today Changshan Village is developing red education, eco-tourism, and rural revitalisation around Gongluoling, Chaowu Temple, and Yang Ruifen’s former residence."
+    }
+  },
+  "footer": {
+    "tagline": "Matang Town · Dianbai · Maoming · Guangdong"
   }
 }
