@@ -4,7 +4,12 @@ import { notFound } from "next/navigation";
 import { Nav } from "@/components/home/Nav";
 import { Footer } from "@/components/home/Footer";
 import { Link } from "@/i18n/navigation";
-import { isSectionId } from "@/data/matang";
+import {
+  isSectionId,
+  isFusedSection,
+  FUSED_SECTION_BLOCKS,
+  SECTION_IDS,
+} from "@/data/matang";
 import { Button } from "@/components/ui/button";
 
 type Props = {
@@ -21,19 +26,62 @@ export default async function SectionPage({ params }: Props) {
 
   const t = await getTranslations("sections");
   const tNav = await getTranslations("nav");
-  const title = t(`${section}.title`);
-  const paragraphs = [t(`${section}.p1`), t(`${section}.p2`)];
-  if (section === "faith") {
-    paragraphs.push(t("faith.p3"), t("faith.p4"), t("faith.p5"));
-  } else if (section === "transport") {
-    paragraphs.push(t("transport.p3"));
+
+  if (isFusedSection(section)) {
+    const blocks = FUSED_SECTION_BLOCKS[section];
+    const tSection = await getTranslations(`sections.${section}`);
+    return (
+      <div className="min-h-screen">
+        <Nav />
+        <main className="mx-auto max-w-3xl px-4 py-24 sm:px-6 sm:py-28">
+          <Button
+            asChild
+            variant="ghost"
+            className="mb-6 text-white/80 hover:text-white"
+          >
+            <Link href="/">← {tNav("home")}</Link>
+          </Button>
+          <div className="space-y-10">
+            {blocks.map(({ blockId, paragraphKeys }) => (
+              <article
+                key={blockId}
+                className="matang-card p-6 sm:p-8"
+              >
+                <h2 className="matang-section-title mb-6 text-2xl sm:text-3xl">
+                  {tSection(`${blockId}.title`)}
+                </h2>
+                <div className="space-y-4 text-white/90">
+                  {paragraphKeys.map((pKey) => (
+                    <p
+                      key={`${blockId}-${pKey}`}
+                      className="leading-relaxed"
+                    >
+                      {tSection(`${blockId}.${pKey}`)}
+                    </p>
+                  ))}
+                </div>
+              </article>
+            ))}
+          </div>
+        </main>
+        <Footer />
+      </div>
+    );
   }
+
+  // 单区块页：宫罗岭
+  const title = t("gongluoling.title");
+  const paragraphs = [t("gongluoling.p1"), t("gongluoling.p2")];
 
   return (
     <div className="min-h-screen">
       <Nav />
       <main className="mx-auto max-w-3xl px-4 py-24 sm:px-6 sm:py-28">
-        <Button asChild variant="ghost" className="mb-6 text-white/80 hover:text-white">
+        <Button
+          asChild
+          variant="ghost"
+          className="mb-6 text-white/80 hover:text-white"
+        >
           <Link href="/">← {tNav("home")}</Link>
         </Button>
         <article className="matang-card p-6 sm:p-8">
@@ -42,7 +90,7 @@ export default async function SectionPage({ params }: Props) {
           </h1>
           <div className="space-y-4 text-white/90">
             {paragraphs.map((text, i) => (
-              <p key={`${section}-p${i + 1}`} className="leading-relaxed">
+              <p key={`gongluoling-p${i + 1}`} className="leading-relaxed">
                 {text}
               </p>
             ))}
@@ -55,16 +103,5 @@ export default async function SectionPage({ params }: Props) {
 }
 
 export function generateStaticParams() {
-  const sections = [
-    "location",
-    "transport",
-    "population",
-    "culture",
-    "customs",
-    "faith",
-    "food",
-    "economy",
-    "gongluoling",
-  ] as const;
-  return sections.map((section) => ({ section }));
+  return SECTION_IDS.map((section) => ({ section }));
 }

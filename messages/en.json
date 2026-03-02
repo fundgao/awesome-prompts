@@ -5,14 +5,9 @@
   },
   "nav": {
     "home": "Home",
-    "location": "Location",
-    "transport": "Transport",
-    "population": "Population",
-    "culture": "Culture",
-    "customs": "Customs",
-    "faith": "Nianli & Faith",
-    "food": "Food & People",
-    "economy": "Economy",
+    "overview": "Geography & Economy",
+    "people": "People & Life",
+    "customs-faith": "Customs & Faith",
     "gongluoling": "Gongluoling"
   },
   "hero": {
@@ -27,54 +22,60 @@
     "learnMore": "Learn more"
   },
   "sections": {
-    "location": {
-      "title": "Location",
-      "p1": "Matang Town lies in the southeast of Dianbai District, Maoming City, Guangdong, on the western Guangdong coast. The terrain is mainly hills and mountains, higher in the west and lower in the east.",
-      "p2": "The area is rich in minerals including gold, tin, and tungsten, with granite reserves of about 1 billion cubic metres, making it an important resource and agricultural town in Dianbai."
+    "overview": {
+      "location": {
+        "title": "Location",
+        "p1": "Matang Town lies in the southeast of Dianbai District, Maoming City, Guangdong, on the western Guangdong coast. The terrain is mainly hills and mountains, higher in the west and lower in the east.",
+        "p2": "The area is rich in minerals including gold, tin, and tungsten, with granite reserves of about 1 billion cubic metres, making it an important resource and agricultural town in Dianbai."
+      },
+      "transport": {
+        "title": "Transport",
+        "p1": "Matang Station is in Matang Town on the Shenzhen–Maoming railway and is an important stop on the Guangzhou–Zhanjiang high-speed line, with 2 platforms and 4 tracks. It is about 292 km from Guangzhou South and about 140 km from Zhanjiang West, a key node on the western Guangdong coastal rail corridor.",
+        "p2": "The Shuixia Road (Matang section) opened in August 2024, linking Bole Port first-class road with Provincial Road S386 north to Matang Station, providing fast access between Bole Port and the high-speed rail station for port–rail interchange. S386 and other trunk roads connect the town with Shuidong, Diancheng, Shalang, and nearby towns.",
+        "p3": "Matang is close to Bole Port; via Bole Port first-class road and Shuixia Road, the town benefits from port logistics and sea transport. Yueyun buses serve the area near Matang Station with routes to Shuidong, Diancheng, Shalang, and elsewhere, with multiple departures daily for rail and town connections."
+      },
+      "economy": {
+        "title": "Economy",
+        "p1": "Agriculture focuses on rice, peanuts, and sweet potatoes, making the town an important grain producer in Dianbai. Industry includes lock-making, granite quarrying, transport, construction, and catering.",
+        "p2": "In recent years local fiscal revenue and retail sales have grown steadily. Market-day trade is active, with hundreds of registered businesses, and rural revitalisation and industrial upgrading are underway."
+      }
     },
-    "transport": {
-      "title": "Transport",
-      "p1": "Matang Station is in Matang Town on the Shenzhen–Maoming railway and is an important stop on the Guangzhou–Zhanjiang high-speed line, with 2 platforms and 4 tracks. It is about 292 km from Guangzhou South and about 140 km from Zhanjiang West, a key node on the western Guangdong coastal rail corridor.",
-      "p2": "The Shuixia Road (Matang section) opened in August 2024, linking Bole Port first-class road with Provincial Road S386 north to Matang Station, providing fast access between Bole Port and the high-speed rail station for port–rail interchange. S386 and other trunk roads connect the town with Shuidong, Diancheng, Shalang, and nearby towns.",
-      "p3": "Matang is close to Bole Port; via Bole Port first-class road and Shuixia Road, the town benefits from port logistics and sea transport. Yueyun buses serve the area near Matang Station with routes to Shuidong, Diancheng, Shalang, and elsewhere, with multiple departures daily for rail and town connections."
+    "people": {
+      "population": {
+        "title": "Population",
+        "p1": "The town has a registered population of about 94,000 and a resident population of about 85,000. The population is predominantly Han Chinese, with a strong sense of community and clan-based settlements.",
+        "p2": "On market days (lunar calendar 3rd, 6th, 9th), the number of visitors can reach 30,000 per day, giving the town a lively commercial and daily life atmosphere."
+      },
+      "culture": {
+        "title": "Local Culture",
+        "p1": "The name Matang (\"horse hoof\") is said to come from a legend of an immortal's horse leaving deep hoof prints on a large bluestone in the street. The old town has a long history and rich cultural heritage.",
+        "p2": "Sights such as Tizi Ridge (Liushi Ridge), Jinniu Ridge, Xianshui Qingyu (one of the old Eight Scenes of Dianbai), and Matang People's Park are popular local landmarks and places for leisure."
+      },
+      "food": {
+        "title": "Food & People",
+        "p1": "Dianbai's famous dishes can be found in Matang too: Shuidong duck congee, Shuidong white-cut chicken, Shuidong mustard greens, Diancheng fish fritters (oyster fritters), pork offal soup, red-hearted duck eggs, and Baitangying lychees.",
+        "p2": "With mountains and sea nearby, local cuisine combines mountain produce and seafood into a distinct food culture."
+      }
     },
-    "population": {
-      "title": "Population",
-      "p1": "The town has a registered population of about 94,000 and a resident population of about 85,000. The population is predominantly Han Chinese, with a strong sense of community and clan-based settlements.",
-      "p2": "On market days (lunar calendar 3rd, 6th, 9th), the number of visitors can reach 30,000 per day, giving the town a lively commercial and daily life atmosphere."
-    },
-    "culture": {
-      "title": "Local Culture",
-      "p1": "The name Matang (\"horse hoof\") is said to come from a legend of an immortal’s horse leaving deep hoof prints on a large bluestone in the street. The old town has a long history and rich cultural heritage.",
-      "p2": "Sights such as Tizi Ridge (Liushi Ridge), Jinniu Ridge, Xianshui Qingyu (one of the old Eight Scenes of Dianbai), and Matang People’s Park are popular local landmarks and places for leisure."
-    },
-    "customs": {
-      "title": "Customs",
-      "p1": "Local customs follow western Guangdong and Dianbai traditions: festivals, ancestor worship, dragon boat races, wedding rituals, and market-day gatherings.",
-      "p2": "Around Changshan Village, temple culture such as Chaowu Temple is preserved alongside the revolutionary sites on Gongluoling, forming a \"red and green\" blend of local custom and festival atmosphere."
-    },
-    "faith": {
-      "title": "Nianli & Faith",
-      "p1": "Like much of western Guangdong and Dianbai, Matang holds \"Nianli\" as the most important folk festival of the year—often summed up as \"Nianli is bigger than New Year.\" Nianli combines worship, thanksgiving to the gods, sacrifice, prayer, and feasting. It usually falls between the first and second lunar month; each village has its own date, in three phases: \"starting Nianli,\" \"main Nianli,\" and \"Nianli tail,\" lasting one to three days.",
-      "p2": "Worship is at the heart of Nianli. Families prepare offerings—meat, wine, dishes, incense—and set them out in the village (\"setting the altar\"). When the deity statues pass by, a ritual master (\"dugong lao\") leads the crowd in three kneelings and nine prostrations toward the gods, praying for good weather and peace. Firecrackers line the route to welcome the deities; the mood is both solemn and festive.",
-      "p3": "The deity parade is the liveliest part of Nianli. Villagers chosen by lot form a procession carrying flags, drums, and gongs, and carry the deity statues through the village. Those who carry the statues are thought to be blessed for the coming year. The parade often includes Taoist gods (wind, rain, thunder, lightning, water, fire) and local figures such as Guan Yu, Kang Wang, Huaguang, and Lady Xian, reflecting the region’s \"many gods, harmony in diversity\" tradition.",
-      "p4": "Local belief centres on Lingnan sacrificial culture and Lady Xian, alongside Taoism, popular deities, and ancestor worship. Temples such as Chaowu Temple are tied to Nianli, the deity parade, and worship—they are both sacred spaces and the focus of village identity and social life.",
-      "p5": "Nianli is listed as intangible cultural heritage in Guangdong. Many from Matang return from afar for Nianli—to worship, watch the parade, and feast with family and friends—making it a key bond for local identity and kinship."
-    },
-    "food": {
-      "title": "Food & People",
-      "p1": "Dianbai’s famous dishes can be found in Matang too: Shuidong duck congee, Shuidong white-cut chicken, Shuidong mustard greens, Diancheng fish fritters (oyster fritters), pork offal soup, red-hearted duck eggs, and Baitangying lychees.",
-      "p2": "With mountains and sea nearby, local cuisine combines mountain produce and seafood into a distinct food culture."
-    },
-    "economy": {
-      "title": "Economy",
-      "p1": "Agriculture focuses on rice, peanuts, and sweet potatoes, making the town an important grain producer in Dianbai. Industry includes lock-making, granite quarrying, transport, construction, and catering.",
-      "p2": "In recent years local fiscal revenue and retail sales have grown steadily. Market-day trade is active, with hundreds of registered businesses, and rural revitalisation and industrial upgrading are underway."
+    "customs-faith": {
+      "customs": {
+        "title": "Customs",
+        "p1": "Local customs follow western Guangdong and Dianbai traditions: festivals, ancestor worship, dragon boat races, wedding rituals, and market-day gatherings.",
+        "p2": "Around Changshan Village, temple culture such as Chaowu Temple is preserved alongside the revolutionary sites on Gongluoling, forming a \"red and green\" blend of local custom and festival atmosphere."
+      },
+      "faith": {
+        "title": "Nianli & Faith",
+        "p1": "Like much of western Guangdong and Dianbai, Matang holds \"Nianli\" as the most important folk festival of the year—often summed up as \"Nianli is bigger than New Year.\" Nianli combines worship, thanksgiving to the gods, sacrifice, prayer, and feasting. It usually falls between the first and second lunar month; each village has its own date, in three phases: \"starting Nianli,\" \"main Nianli,\" and \"Nianli tail,\" lasting one to three days.",
+        "p2": "Worship is at the heart of Nianli. Families prepare offerings—meat, wine, dishes, incense—and set them out in the village (\"setting the altar\"). When the deity statues pass by, a ritual master (\"dugong lao\") leads the crowd in three kneelings and nine prostrations toward the gods, praying for good weather and peace. Firecrackers line the route to welcome the deities; the mood is both solemn and festive.",
+        "p3": "The deity parade is the liveliest part of Nianli. Villagers chosen by lot form a procession carrying flags, drums, and gongs, and carry the deity statues through the village. Those who carry the statues are thought to be blessed for the coming year. The parade often includes Taoist gods (wind, rain, thunder, lightning, water, fire) and local figures such as Guan Yu, Kang Wang, Huaguang, and Lady Xian, reflecting the region's \"many gods, harmony in diversity\" tradition.",
+        "p4": "Local belief centres on Lingnan sacrificial culture and Lady Xian, alongside Taoism, popular deities, and ancestor worship. Temples such as Chaowu Temple are tied to Nianli, the deity parade, and worship—they are both sacred spaces and the focus of village identity and social life.",
+        "p5": "Nianli is listed as intangible cultural heritage in Guangdong. Many from Matang return from afar for Nianli—to worship, watch the parade, and feast with family and friends—making it a key bond for local identity and kinship."
+      }
     },
     "gongluoling": {
       "title": "Gongluoling",
       "p1": "Gongluoling is in Changshan Village near Chaowu Temple. Chaowu Cave on the ridge is an important revolutionary site, once used by figures such as Yang Ruifen. The Republican-era Dianbai County Gazetteer listed it as one of the Eight Scenes of Dianbai.",
-      "p2": "Legend also links Chaowu Cave to Lady Xian’s military and supply operations. Today Changshan Village is developing red education, eco-tourism, and rural revitalisation around Gongluoling, Chaowu Temple, and Yang Ruifen’s former residence."
+      "p2": "Legend also links Chaowu Cave to Lady Xian's military and supply operations. Today Changshan Village is developing red education, eco-tourism, and rural revitalisation around Gongluoling, Chaowu Temple, and Yang Ruifen's former residence."
     }
   },
   "footer": {
