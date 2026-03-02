@@ -209,6 +209,25 @@
   color: var(--matang-gold-muted);
   filter: brightness(1.1);
 }
+.theme-matang .matang-nav .matang-nav-link-active {
+  color: var(--matang-gold);
+  font-weight: 600;
+}
+.theme-matang .matang-nav .matang-nav-link.matang-nav-link-active::after {
+  content: "";
+  position: absolute;
+  left: 0.5rem;
+  right: 0.5rem;
+  bottom: -0.25rem;
+  height: 1px;
+  background: var(--matang-gold);
+  opacity: 1;
+}
+/* 激活态：移动端菜单等非 .matang-nav 内的链接也共用 */
+.theme-matang .matang-nav-link-active {
+  color: var(--matang-gold);
+  font-weight: 600;
+}
 .theme-matang .matang-hero-title {
   background: linear-gradient(135deg, var(--matang-text) 0%, var(--matang-gold) 50%, var(--matang-text-muted) 100%);
   -webkit-background-clip: text;
