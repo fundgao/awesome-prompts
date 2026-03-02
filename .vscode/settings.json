@@ -1,0 +1,26 @@
+{
+  "editor.defaultFormatter": "biomejs.biome", // 设置 Biome 作为默认格式化工具
+  "editor.formatOnSave": true, // 保存时自动格式化
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit", // 启用 Biome 的快速修复
+    "source.fixAll.eslint": "never" // 禁用 ESLint 的自动修复（如果不需要）
+  },
+  "files.associations": {
+    "*.css": "css"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
+}

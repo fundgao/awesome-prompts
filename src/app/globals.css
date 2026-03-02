@@ -140,7 +140,12 @@
   --matang-border: oklch(0.25 0.02 270);
 }
 .theme-matang body {
-  background: linear-gradient(165deg, var(--matang-bg) 0%, oklch(0.08 0.04 280) 50%, var(--matang-bg) 100%);
+  background: linear-gradient(
+    165deg,
+    var(--matang-bg) 0%,
+    oklch(0.08 0.04 280) 50%,
+    var(--matang-bg) 100%
+  );
   color: var(--matang-text);
   min-height: 100vh;
 }
@@ -159,7 +164,11 @@
   border-color: var(--matang-gold);
 }
 .theme-matang .matang-btn-primary {
-  background: linear-gradient(135deg, var(--matang-gold) 0%, var(--matang-gold-muted) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--matang-gold) 0%,
+    var(--matang-gold-muted) 100%
+  );
   color: oklch(0.15 0.02 85);
   font-weight: 600;
 }
@@ -177,7 +186,11 @@
 }
 /* 导航栏 · 参考 MEXC 活动页：深底 + 底部金色细线 + 毛玻璃 */
 .theme-matang .matang-nav {
-  background: linear-gradient(180deg, oklch(0.08 0.02 270 / 0.95) 0%, oklch(0.06 0.02 270 / 0.98) 100%);
+  background: linear-gradient(
+    180deg,
+    oklch(0.08 0.02 270 / 0.95) 0%,
+    oklch(0.06 0.02 270 / 0.98) 100%
+  );
   border-bottom: 1px solid var(--matang-border);
   box-shadow: 0 1px 0 0 oklch(0.82 0.15 85 / 0.25);
   backdrop-filter: blur(16px);
@@ -229,7 +242,12 @@
   font-weight: 600;
 }
 .theme-matang .matang-hero-title {
-  background: linear-gradient(135deg, var(--matang-text) 0%, var(--matang-gold) 50%, var(--matang-text-muted) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--matang-text) 0%,
+    var(--matang-gold) 50%,
+    var(--matang-text-muted) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -240,7 +258,11 @@
 }
 /* 底栏 · 参考 MEXC 活动页：深底 + 顶部金色细线 + 分组链接 + 底部版权 */
 .theme-matang .matang-footer {
-  background: linear-gradient(180deg, oklch(0.06 0.02 270) 0%, oklch(0.04 0.02 270) 100%);
+  background: linear-gradient(
+    180deg,
+    oklch(0.06 0.02 270) 0%,
+    oklch(0.04 0.02 270) 100%
+  );
   border-top: 1px solid var(--matang-border);
   box-shadow: 0 -1px 0 0 oklch(0.82 0.15 85 / 0.2);
   color: var(--matang-text-muted);
@@ -253,7 +275,12 @@
 }
 .theme-matang .matang-footer-divider {
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--matang-border), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--matang-border),
+    transparent
+  );
 }
 .theme-matang .matang-footer-tagline {
   color: oklch(0.55 0.02 90);
