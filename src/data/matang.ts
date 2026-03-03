@@ -26,6 +26,7 @@ export const FUSED_SECTION_BLOCKS: Record<
 > = {
   overview: [
     { blockId: "location", paragraphKeys: ["p1", "p2"] },
+    { blockId: "history-layout-villages", paragraphKeys: ["p1", "p2", "p3"] },
     { blockId: "transport", paragraphKeys: ["p1", "p2", "p3"] },
     { blockId: "economy", paragraphKeys: ["p1", "p2"] },
   ],
