@@ -38,9 +38,9 @@ export default async function SectionPage({ params }: Props) {
     const blocks = FUSED_SECTION_BLOCKS[section];
     const tSection = await getTranslations(`sections.${section}`);
     return (
-      <div className="min-h-screen">
+      <div className="min-h-screen flex flex-col">
         <Nav />
-        <main className="site-container py-24 sm:py-28">
+        <main className="site-container flex-1 py-24 sm:py-28">
           <Button
             asChild
             variant="ghost"
@@ -99,9 +99,9 @@ export default async function SectionPage({ params }: Props) {
   const paragraphs = [t("gongluoling.p1"), t("gongluoling.p2")];
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen flex flex-col">
       <Nav />
-      <main className="site-container py-24 sm:py-28">
+      <main className="site-container flex-1 py-24 sm:py-28">
         <Button
           asChild
           variant="ghost"

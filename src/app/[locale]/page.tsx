@@ -13,9 +13,9 @@ export default async function HomePage({ params }: Props) {
   const t = await getTranslations("home");
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen flex flex-col">
       <Nav />
-      <main>
+      <main className="flex flex-1 flex-col">
         <Hero />
         <section
           id="overview"
