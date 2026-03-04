@@ -40,7 +40,7 @@ export default async function SectionPage({ params }: Props) {
     return (
       <div className="min-h-screen">
         <Nav />
-        <main className="mx-auto w-full max-w-[1200px] px-6 py-24 md:px-12 sm:py-28 lg:px-20">
+        <main className="site-container py-24 sm:py-28">
           <Button
             asChild
             variant="ghost"
@@ -101,7 +101,7 @@ export default async function SectionPage({ params }: Props) {
   return (
     <div className="min-h-screen">
       <Nav />
-      <main className="mx-auto w-full max-w-[1200px] px-6 py-24 md:px-12 sm:py-28 lg:px-20">
+      <main className="site-container py-24 sm:py-28">
         <Button
           asChild
           variant="ghost"

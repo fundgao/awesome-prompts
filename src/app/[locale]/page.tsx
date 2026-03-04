@@ -19,7 +19,7 @@ export default async function HomePage({ params }: Props) {
         <Hero />
         <section
           id="overview"
-          className="mx-auto w-full max-w-[1200px] px-6 py-12 md:px-12 sm:py-16 lg:px-20"
+          className="site-container py-12 sm:py-16"
         >
           <div className="relative aspect-[21/9] w-full overflow-hidden rounded-xl bg-white/5">
             <Image

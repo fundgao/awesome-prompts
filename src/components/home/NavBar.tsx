@@ -36,7 +36,7 @@ export function NavBar({ homeLabel, navItems }: Props) {
   return (
     <>
       <header className="matang-nav fixed left-0 right-0 top-0 z-[110] py-3 sm:py-4">
-        <nav className="mx-auto flex w-full max-w-[1200px] items-center justify-between gap-4 px-6 md:px-12 lg:px-20">
+        <nav className="site-container flex items-center justify-between gap-4">
           <Link
             href="/"
             className={`matang-nav-home shrink-0 text-base font-semibold transition-colors sm:text-lg ${activeId === "home" ? "matang-nav-link-active" : ""}`}
