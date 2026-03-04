@@ -8,7 +8,7 @@ export async function Footer() {
 
   return (
     <footer className="matang-footer mt-auto">
-      <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
+      <div className="mx-auto w-full max-w-[1200px] px-6 py-10 md:px-12 lg:px-20">
         <nav
           className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm sm:gap-x-8"
           aria-label="Footer navigation"

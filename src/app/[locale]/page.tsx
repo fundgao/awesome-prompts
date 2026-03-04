@@ -17,7 +17,10 @@ export default async function HomePage({ params }: Props) {
       <Nav />
       <main>
         <Hero />
-        <section id="overview" className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16">
+        <section
+          id="overview"
+          className="mx-auto w-full max-w-[1200px] px-6 py-12 md:px-12 sm:py-16 lg:px-20"
+        >
           <div className="relative aspect-[21/9] w-full overflow-hidden rounded-xl bg-white/5">
             <Image
               src="https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?w=1200&q=80"

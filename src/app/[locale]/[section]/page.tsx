@@ -1,6 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import { Nav } from "@/components/home/Nav";
 import { Footer } from "@/components/home/Footer";
 import { Link } from "@/i18n/navigation";
@@ -15,6 +16,12 @@ import { Button } from "@/components/ui/button";
 type Props = {
   params: Promise<{ locale: string; section: string }>;
 };
+
+const NIANLI_IMAGES = [
+  "/nianli/nianli-1.jpg",
+  "/nianli/nianli-2.jpg",
+  "/nianli/nianli-3.jpg",
+] as const;
 
 export default async function SectionPage({ params }: Props) {
   const { locale, section } = await params;
@@ -33,7 +40,7 @@ export default async function SectionPage({ params }: Props) {
     return (
       <div className="min-h-screen">
         <Nav />
-        <main className="mx-auto max-w-3xl px-4 py-24 sm:px-6 sm:py-28">
+        <main className="mx-auto w-full max-w-[1200px] px-6 py-24 md:px-12 sm:py-28 lg:px-20">
           <Button
             asChild
             variant="ghost"
@@ -60,6 +67,24 @@ export default async function SectionPage({ params }: Props) {
                     </p>
                   ))}
                 </div>
+                {section === "customs-faith" && blockId === "faith" ? (
+                  <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                    {NIANLI_IMAGES.map((src) => (
+                      <div
+                        key={src}
+                        className="overflow-hidden rounded-xl border border-white/10"
+                      >
+                        <Image
+                          src={src}
+                          alt={tSection("faith.title")}
+                          width={1200}
+                          height={900}
+                          className="h-full w-full object-cover"
+                        />
+                      </div>
+                    ))}
+                  </div>
+                ) : null}
               </article>
             ))}
           </div>
@@ -76,7 +101,7 @@ export default async function SectionPage({ params }: Props) {
   return (
     <div className="min-h-screen">
       <Nav />
-      <main className="mx-auto max-w-3xl px-4 py-24 sm:px-6 sm:py-28">
+      <main className="mx-auto w-full max-w-[1200px] px-6 py-24 md:px-12 sm:py-28 lg:px-20">
         <Button
           asChild
           variant="ghost"
