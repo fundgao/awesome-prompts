@@ -31,7 +31,6 @@ export default async function SectionPage({ params }: Props) {
     notFound();
   }
 
-  const t = await getTranslations("sections");
   const tNav = await getTranslations("nav");
 
   if (isFusedSection(section)) {
@@ -94,37 +93,7 @@ export default async function SectionPage({ params }: Props) {
     );
   }
 
-  // 单区块页：宫罗岭
-  const title = t("gongluoling.title");
-  const paragraphs = [t("gongluoling.p1"), t("gongluoling.p2")];
-
-  return (
-    <div className="min-h-screen flex flex-col">
-      <Nav />
-      <main className="site-container flex-1 py-24 sm:py-28">
-        <Button
-          asChild
-          variant="ghost"
-          className="mb-6 text-white/80 hover:text-white"
-        >
-          <Link href="/">← {tNav("home")}</Link>
-        </Button>
-        <article className="matang-card p-6 sm:p-8">
-          <h1 className="matang-section-title mb-6 text-2xl sm:text-3xl">
-            {title}
-          </h1>
-          <div className="space-y-4 text-white/90">
-            {paragraphs.map((text, i) => (
-              <p key={`gongluoling-p${i + 1}`} className="leading-relaxed">
-                {text}
-              </p>
-            ))}
-          </div>
-        </article>
-      </main>
-      <Footer />
-    </div>
-  );
+  notFound();
 }
 
 export function generateStaticParams() {

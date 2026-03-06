@@ -8,7 +8,7 @@
     "overview": "Geography & Economy",
     "people": "People & Life",
     "customs-faith": "Customs & Faith",
-    "gongluoling": "Gongluoling"
+    "changshan": "Changshan Village"
   },
   "hero": {
     "title": "Matang Town",
@@ -16,23 +16,48 @@
     "cta": "Learn more"
   },
   "home": {
-    "overview1": "Matang Town is part of Dianbai District, Maoming City, Guangdong. It lies in the southeast of Dianbai on the western Guangdong coast, with hills and mountains behind and the sea in front. Legend says the name comes from an immortal’s horse leaving hoof prints on a bluestone in the street. The town has a long history and a strong sense of community.",
-    "overview2": "The registered population is about 94,000. Market days (lunar 3rd, 6th, 9th) draw large crowds. Agriculture, granite quarrying, and lock-making are mainstays. Gongluoling and Chaowu Cave carry revolutionary and cultural memory. The town is a window on Dianbai’s local culture and rural revitalisation.",
+    "overview1": "Matang Town is part of Dianbai District, Maoming City, Guangdong. It lies in the southeast of Dianbai on the western Guangdong coast, with hills and mountains behind and the sea in front. Legend says the name comes from an immortal's horse leaving hoof prints on a bluestone in the street. The town has a long history and a strong sense of community.",
+    "overview2": "The registered population is about 94,000. Market days (lunar 3rd, 6th, 9th) draw large crowds. Agriculture, granite quarrying, and lock-making are mainstays. Changshan Village, Gongluoling, and Chaowu Cave carry revolutionary and cultural memory. The town is a window on Dianbai's local culture and rural revitalisation.",
+    "overview3": "Matang is not a place known for a single attraction. Its value lies in the combination of eastern Dianbai gateway, agricultural heartland, hilly pastoral landscape, and traditional village culture. From Nianli folk festivals to revolutionary sites, from Simiao rice to selenium-rich produce, Matang's stories are scattered across villages, ancestral halls, temples, and farming life.",
     "imageAlt": "Matang Town",
-    "learnMore": "Learn more"
+    "learnMore": "Learn more",
+    "statsTitle": "Matang at a Glance",
+    "stat1Value": "161.91 km²",
+    "stat1Label": "Total Area",
+    "stat2Value": "~94,000",
+    "stat2Label": "Registered Population",
+    "stat3Value": "19",
+    "stat3Label": "Village Committees",
+    "stat4Value": "Matang Station",
+    "stat4Label": "High-Speed Rail",
+    "exploreTitle": "Explore Matang",
+    "card1Title": "Geography & Economy",
+    "card1Desc": "Location, natural environment, history, transport hub and local specialties",
+    "card2Title": "People & Life",
+    "card2Desc": "Population, local culture and food traditions",
+    "card3Title": "Customs & Faith",
+    "card3Desc": "Nianli festival, folk beliefs and Liu Xian San Tai Temple",
+    "card4Title": "Changshan Village",
+    "card4Desc": "Revolutionary heritage, Yang Ruifen's residence and Gongluoling",
+    "readMore": "Read more →"
   },
   "sections": {
     "overview": {
       "location": {
         "title": "Location",
-        "p1": "Matang Town lies in the southeast of Dianbai District, Maoming City, Guangdong, on the western Guangdong coast. The terrain is mainly hills and mountains, higher in the west and lower in the east.",
+        "p1": "Matang Town lies in the southeast of Dianbai District, Maoming City, Guangdong, on the western Guangdong coast. It borders Rudong Town of Yangxi County to the east across the river, Lingmen Town to the southeast, Diancheng Town to the south, Guanzhu Town to the west, and Wangfu Town to the north. The total area is about 161.91 sq km.",
         "p2": "The area is rich in minerals including gold, tin, and tungsten, with granite reserves of about 1 billion cubic metres, making it an important resource and agricultural town in Dianbai."
+      },
+      "nature": {
+        "title": "Natural Environment",
+        "p1": "The terrain is mainly hills and mountains, higher in the west and lower in the east. Notable peaks include Jiangjun Ridge, Nanlei Ridge, Yitan Ridge, and Jian Ridge. Rivers flow roughly fan-shaped eastward into the Rudong River, creating a landscape of forested hills alongside flat farmland.",
+        "p2": "Matang has a strong ecological foundation with high forest coverage. Its pastoral village scenery is typical of the region, making it one of the most distinctly rural and scenic areas in Dianbai."
       },
       "history-layout-villages": {
         "title": "History, Layout & Villages",
-        "p1": "Matang's administrative and settlement history follows the broader development of coastal communities in Dianbai, with the market town taking shape early. A long-circulating local legend says the town was named after hoof prints left by an immortal's horse, reflecting oral tradition and place memory.",
+        "p1": "Matang's administrative history: it was part of District One in 1953, became Matang People's Commune in 1958, Matang District in 1983, and Matang Town in 1987. The name \"Matang\" (horse hoof) is widely said to come from a legend of an immortal's horse leaving hoof prints on a stone—an image even incorporated into the design of Matang Station.",
         "p2": "The town's spatial pattern can be summarised as \"market core, ringed villages, and roads as links.\" The market area serves commerce and public services, while surrounding villages are distributed around farmland, waterways, and road corridors, creating a mutually supportive rural living-and-production structure.",
-        "p3": "Matang governs multiple village committees and communities. Settlements are mainly natural villages and clan-based residential villages. Places such as Changshan Village combine historical culture with revolutionary heritage, preserving traditional dwellings and festival customs while improving infrastructure and public spaces through rural revitalisation."
+        "p3": "Matang governs 1 community and 19 village committees, including Matang Community, Matang Village, Changshan Village, Xiashan Village, Luyue Village, Shangcun Village, Shihu Village, Fengmen Village, Tianxing Village, Shigubay Village, Shanhu Village, Lianqun Village, Huangjiang Village, Huatian Village, Xiutian Village, Longwan Village, Xiaohe Village, Lianhe Village, Xiadongling Village, and Songtang Village."
       },
       "transport": {
         "title": "Transport",
@@ -42,8 +67,13 @@
       },
       "economy": {
         "title": "Economy",
-        "p1": "Agriculture focuses on rice, peanuts, and sweet potatoes, making the town an important grain producer in Dianbai. Industry includes lock-making, granite quarrying, transport, construction, and catering.",
-        "p2": "In recent years local fiscal revenue and retail sales have grown steadily. Market-day trade is active, with hundreds of registered businesses, and rural revitalisation and industrial upgrading are underway."
+        "p1": "Agriculture focuses on rice, peanuts, and sweet potatoes—the town is known as the \"granary of Dianbai\" and is an important grain producer. Industry includes lock-making, granite quarrying, transport, construction, and catering.",
+        "p2": "In recent years local fiscal revenue and retail sales have grown steadily. Market-day trade is active, with hundreds of registered businesses. Matang High-Speed Rail Industrial Park leverages transport advantages to attract manufacturing, and rural revitalisation and industrial upgrading are underway."
+      },
+      "specialties": {
+        "title": "Local Specialties",
+        "p1": "Matang's agricultural specialties include Simiao rice, sweet potatoes, lychees, longan, bayberry wine, cherry tomatoes, and selenium-rich produce. Selenium-rich products have become a key branding focus in recent years, with \"selenium-rich Matang\" emerging as an important local agricultural label.",
+        "p2": "Matang Simiao rice, bayberry wine, Maoming lychees, and Dianbai agarwood have been integrated into rural revitalisation and local branding efforts, becoming important calling cards for the town."
       }
     },
     "people": {
@@ -76,12 +106,31 @@
         "p3": "The deity parade is the liveliest part of Nianli. Villagers chosen by lot form a procession carrying flags, drums, and gongs, and carry the deity statues through the village. Those who carry the statues are thought to be blessed for the coming year. The parade often includes Taoist gods (wind, rain, thunder, lightning, water, fire) and local figures such as Guan Yu, Kang Wang, Huaguang, and Lady Xian, reflecting the region's \"many gods, harmony in diversity\" tradition.",
         "p4": "Local belief centres on Lingnan sacrificial culture and Lady Xian, alongside Taoism, popular deities, and ancestor worship. Temples such as Chaowu Temple are tied to Nianli, the deity parade, and worship—they are both sacred spaces and the focus of village identity and social life.",
         "p5": "Nianli is listed as intangible cultural heritage in Guangdong. Many from Matang return from afar for Nianli—to worship, watch the parade, and feast with family and friends—making it a key bond for local identity and kinship."
+      },
+      "liuxiansantai": {
+        "title": "Liu Xian San Tai Temple",
+        "p1": "Liu Xian San Tai Temple stands on Chiling (Xutou Ridge) in Matang Market, and is one of the most representative folk religious sites in Matang Town. It is also the cultural origin of the \"sending炮\" and \"receiving炮\" customs of the Matang Nianli festival. According to the Revised Dianbai County Gazetteer, a Liu Santai Temple on Matang Market Ridge was built in the fifth year of the Daoguang reign of the Qing dynasty.",
+        "p2": "Local legend holds that Liu Xian San Tai wandered to Matang in her later years, found the land beautiful and the people kind, and settled on Chiling to cultivate herself and teach the villagers folk songs. After attaining immortality, she continued to protect the community. Locals thus hold a festival on the fifteenth day of the eighth lunar month—her birthday—which gradually evolved into Matang's distinctive Mid-Autumn Nianli. Her cult draws on the Lingnan \"Liu Sanjie / Liu Sanmei\" singing-immortal tradition, fused with local memories of Chiling, the Horse-Hoof Stone, and community protection.",
+        "p3": "During the festival, Matang holds cannon-sending, cannon-receiving, float parades, lion dances, drum processions, and Yingge dance performances, drawing large crowds of locals and visitors. The central wish is for good harvests, household peace, and community harmony. Liu Xian San Tai Temple is not merely a place of worship—it is the cultural heart of Matang's local memory, village identity, and living folk tradition."
       }
     },
-    "gongluoling": {
-      "title": "Gongluoling",
-      "p1": "Gongluoling is in Changshan Village near Chaowu Temple. Chaowu Cave on the ridge is an important revolutionary site, once used by figures such as Yang Ruifen. The Republican-era Dianbai County Gazetteer listed it as one of the Eight Scenes of Dianbai.",
-      "p2": "Legend also links Chaowu Cave to Lady Xian's military and supply operations. Today Changshan Village is developing red education, eco-tourism, and rural revitalisation around Gongluoling, Chaowu Temple, and Yang Ruifen's former residence."
+    "changshan": {
+      "village": {
+        "title": "Changshan Village",
+        "p1": "Changshan Village lies in the hilly belt of Matang Town and is one of the town's most representative revolutionary heritage villages. It preserves Yang Ruifen's former residence, Chaowu Temple, Chaowu Cave, an ancient well, Chaowu Study Hall, Chaowu Academy, Cai Haiguang Ancestral Hall, and the Chiling Revolutionary Martyrs' Monument—combining traditional village character with a rich revolutionary legacy.",
+        "p2": "The village includes at least three natural hamlets: Xingyang Village, Hongshangtou Village, and Jiuxiangtang Village. Settlements are arranged around ridges, farmland, and ponds, creating the classic western Guangdong pattern of \"fields in front, ridges behind, village nestled between mountain and field.\" In recent years, Changshan has been developing red education, eco-tourism, and rural cultural tourism centred on Yang Ruifen's former residence and the Chaowu Temple area."
+      },
+      "yangruifen": {
+        "title": "Yang Ruifen & Revolutionary History",
+        "p1": "Yang Ruifen was born in August 1918 in Xingyang Hamlet, Changshan Village. He joined the revolution in 1940 and the Communist Party of China in 1941, becoming one of the most important revolutionary leaders in the Dianbai area during the War of Resistance and the Liberation War. After graduating from Dianbai Normal School, he returned to teach at Changshan Primary School, where he organised villagers and founded the \"Green Sprout Society\"—ostensibly a crop-protection group, in reality a vehicle for mobilising the community and building armed capacity.",
+        "p2": "In March 1945, Yang Ruifen returned to Matang to organise armed resistance; a guerrilla unit ambushed retreating Japanese troops passing through Matang and seized weapons. He went on to serve as head of the Dianbai Guerrilla Force, head of the Dianbai underground Party, secretary of the Dianbai County Party Committee, the first county magistrate of the Dianbai County People's Government, and director of the Zhanjiang Special District Water Conservancy Bureau. He passed away in September 2003.",
+        "p3": "Yang Ruifen's former residence is located in Xingyang Hamlet, Changshan Village Committee. It is a brick-and-timber complex built roughly 170 years ago and has become an important red cultural landmark in Matang Town, serving as a key site for revolutionary education and Party history study."
+      },
+      "gongluoling": {
+        "title": "Gongluoling & Chaowu Cave",
+        "p1": "Gongluoling lies near Chaowu Temple in Changshan Village. Chaowu Cave on the ridge is an important revolutionary site—it once sheltered Yang Ruifen when he was being hunted. The Republican-era Dianbai County Gazetteer listed Chaowu Cave as one of the Eight Scenes of Dianbai. Local legend also holds that Lady Xian once used the site to station troops and store supplies, adding an earlier heroic dimension to the ridge.",
+        "p2": "Gongluoling is more than a natural hill—it is a cultural space that weaves together revolutionary memory, folk legend, and local faith. Chaowu Temple, Chaowu Cave, and Gongluoling together form the most representative mountain cultural landscape of Changshan Village, and are key landmarks for understanding Matang's revolutionary history and local culture."
+      }
     }
   },
   "footer": {
