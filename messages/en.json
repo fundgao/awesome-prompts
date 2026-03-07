@@ -8,7 +8,8 @@
     "overview": "Geography & Economy",
     "people": "People & Life",
     "customs-faith": "Customs & Faith",
-    "changshan": "Changshan Village"
+    "changshan": "Changshan Village",
+    "nianli": "Nianli Calendar"
   },
   "hero": {
     "title": "Matang Town",
@@ -135,5 +136,10 @@
   },
   "footer": {
     "tagline": "Matang Town · Dianbai · Maoming · Guangdong"
+  },
+  "nianli": {
+    "title": "Dianbai Nianli Calendar",
+    "subtitle": "Festival dates by village and town — search by name",
+    "searchPlaceholder": "Search village or town…"
   }
 }

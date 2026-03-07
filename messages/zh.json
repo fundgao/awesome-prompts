@@ -8,7 +8,8 @@
     "overview": "地理与经济社会",
     "people": "人文与生活",
     "customs-faith": "习俗与信仰",
-    "changshan": "长山村"
+    "changshan": "长山村",
+    "nianli": "年例表"
   },
   "hero": {
     "title": "马踏镇",
@@ -135,5 +136,10 @@
   },
   "footer": {
     "tagline": "马踏镇 · 电白区 · 茂名市 · 广东省"
+  },
+  "nianli": {
+    "title": "电白区年例时间表",
+    "subtitle": "各村镇年例日期汇总，可按村名搜索",
+    "searchPlaceholder": "搜索村名或镇名…"
   }
 }

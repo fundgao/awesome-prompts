@@ -4,7 +4,10 @@ import { NavBar } from "./NavBar";
 
 export async function Nav() {
   const t = await getTranslations("nav");
-  const navItems = SECTION_IDS.map((id) => ({ id, label: t(id) }));
+  const navItems = [
+    ...SECTION_IDS.map((id) => ({ id, label: t(id) })),
+    { id: "nianli", label: t("nianli") },
+  ];
 
   return (
     <NavBar
