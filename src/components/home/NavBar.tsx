@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from "react";
 import { Link, usePathname } from "@/i18n/navigation";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Github } from "lucide-react";
 import { LocaleSwitcher } from "./LocaleSwitcher";
 
 type NavItem = { id: string; label: string };
@@ -60,12 +60,30 @@ export function NavBar({ homeLabel, navItems }: Props) {
               </li>
             ))}
           </ul>
-          <div className="hidden shrink-0 pl-2 md:block">
+          <div className="hidden shrink-0 items-center gap-2 pl-2 md:flex">
+            <a
+              href="https://github.com/fundgao/awesome-mata"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex size-9 items-center justify-center rounded-lg text-white/70 transition-colors hover:bg-white/10 hover:text-white"
+              aria-label="GitHub 仓库"
+            >
+              <Github className="size-5" />
+            </a>
             <LocaleSwitcher />
           </div>
 
           {/* 移动端：汉堡按钮 */}
           <div className="flex shrink-0 items-center gap-2 md:hidden">
+            <a
+              href="https://github.com/fundgao/awesome-mata"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex size-9 items-center justify-center rounded-lg text-white/70 transition-colors hover:bg-white/10 hover:text-white"
+              aria-label="GitHub 仓库"
+            >
+              <Github className="size-5" />
+            </a>
             <LocaleSwitcher />
             <button
               type="button"
