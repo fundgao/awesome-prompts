@@ -71,14 +71,14 @@ export default async function SectionPage({ params }: Props) {
                     {NIANLI_IMAGES.map((src) => (
                       <div
                         key={src}
-                        className="overflow-hidden rounded-xl border border-white/10"
+                        className="group overflow-hidden rounded-xl border border-white/10"
                       >
                         <Image
                           src={src}
                           alt={tSection("faith.title")}
                           width={1200}
                           height={900}
-                          className="h-full w-full object-cover"
+                          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
                         />
                       </div>
                     ))}

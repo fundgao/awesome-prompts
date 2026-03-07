@@ -36,12 +36,12 @@ export default async function HomePage({ params }: Props) {
 
         {/* Overview */}
         <section id="overview" className="site-container py-12 sm:py-16">
-          <div className="relative aspect-[16/9] w-full overflow-hidden rounded-xl bg-white/5">
+          <div className="group relative aspect-[16/9] w-full overflow-hidden rounded-xl bg-white/5">
             <Image
               src="/马踏高铁站.webp"
               alt={t('imageAlt')}
               fill
-              className="object-cover"
+              className="object-cover transition-transform duration-300 group-hover:scale-110"
               sizes="(max-width: 768px) 100vw, 896px"
               priority
             />
@@ -73,30 +73,30 @@ export default async function HomePage({ params }: Props) {
 
           {/* Photo grid */}
           <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-lg bg-white/5">
+            <div className="group relative aspect-[4/3] overflow-hidden rounded-lg bg-white/5">
               <Image
                 src="/马踏墟/mata-cba.webp"
                 alt={t('imageAlt')}
                 fill
-                className="object-cover"
+                className="object-cover transition-transform duration-300 group-hover:scale-110"
                 sizes="(max-width: 640px) 50vw, 33vw"
               />
             </div>
-            <div className="relative aspect-[4/3] overflow-hidden rounded-lg bg-white/5">
+            <div className="group relative aspect-[4/3] overflow-hidden rounded-lg bg-white/5">
               <Image
                 src="/马踏墟/马踏墟1.webp"
                 alt={t('imageAlt')}
                 fill
-                className="object-cover"
+                className="object-cover transition-transform duration-300 group-hover:scale-110"
                 sizes="(max-width: 640px) 50vw, 33vw"
               />
             </div>
-            <div className="relative aspect-[4/3] overflow-hidden rounded-lg bg-white/5 col-span-2 sm:col-span-1">
+            <div className="group relative aspect-[4/3] overflow-hidden rounded-lg bg-white/5 col-span-2 sm:col-span-1">
               <Image
                 src="/马踏墟/马踏墟2.webp"
                 alt={t('imageAlt')}
                 fill
-                className="object-cover"
+                className="object-cover transition-transform duration-300 group-hover:scale-110"
                 sizes="(max-width: 640px) 100vw, 33vw"
               />
             </div>
