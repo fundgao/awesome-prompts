@@ -308,6 +308,9 @@
 .animate-marquee-vertical {
   animation: marquee-vertical var(--duration) linear infinite;
 }
+.marquee-pause-on-hover:hover [data-marquee] {
+  animation-play-state: paused;
+}
 
 /* Unified page container: mobile/tablet paddings, desktop fixed max width + gutters */
 .site-container {
