@@ -4,6 +4,7 @@ import { getTranslations } from 'next-intl/server'
 import { Nav } from '@/components/home/Nav'
 import { Hero } from '@/components/home/Hero'
 import { Footer } from '@/components/home/Footer'
+import { YoushenMarquee } from '@/components/home/YoushenMarquee'
 import { Link } from '@/i18n/navigation'
 import { SECTION_IDS } from '@/data/matang'
 
@@ -101,6 +102,14 @@ export default async function HomePage({ params }: Props) {
               />
             </div>
           </div>
+        </section>
+
+        {/* 游神 photo marquee */}
+        <section className="py-10 sm:py-14">
+          <h2 className="matang-section-title mb-6 text-xl sm:text-2xl site-container">
+            {t('youshenTitle')}
+          </h2>
+          <YoushenMarquee />
         </section>
 
         {/* Section cards */}
