@@ -25,7 +25,7 @@ function ImageCard({ src }: { src: string }) {
 
 export function YoushenMarquee() {
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="relative w-full overflow-hidden mt-4">
       <Marquee pauseOnHover className="[--duration:65s] [--gap:1.75rem]">
         {row1.map((src) => (
           <ImageCard key={src} src={src} />
@@ -41,8 +41,8 @@ export function YoushenMarquee() {
         ))}
       </Marquee>
       {/* fade edges */}
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-[var(--matang-bg)] to-transparent sm:w-24" />
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-[var(--matang-bg)] to-transparent sm:w-24" />
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-[var(--matang-bg)] to-transparent sm:w-1/4" />
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-[var(--matang-bg)] to-transparent sm:w-1/4" />
     </div>
   )
 }
