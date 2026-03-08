@@ -41,7 +41,11 @@
     "card3Desc": "Nianli festival, folk beliefs and Liu Xian San Tai Temple",
     "card4Title": "Changshan Village",
     "card4Desc": "Revolutionary heritage, Yang Ruifen's residence and Gongluoling",
-    "readMore": "Read more →"
+    "readMore": "Read more →",
+    "nianliTitle": "Nianli Calendar",
+    "nianliCardTitle": "Dianbai Nianli Calendar",
+    "nianliCardDesc": "Annual ceremony dates for all villages — search by village or town name",
+    "nianliSearch": "Search village or town…"
   },
   "sections": {
     "overview": {

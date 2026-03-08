@@ -138,6 +138,27 @@ export default async function HomePage({ params }: Props) {
           </div>
         </section>
 
+        {/* 年例表 */}
+        <section className="site-container pb-16 sm:pb-20">
+          <h2 className="matang-section-title mb-6 text-xl sm:text-2xl">
+            {t('nianliTitle')}
+          </h2>
+          <Link
+            href="/nianli"
+            className="matang-card group flex flex-col gap-3 p-5 transition-colors hover:border-white/20"
+          >
+            <h3 className="font-semibold text-white group-hover:text-[var(--matang-gold)] transition-colors">
+              {t('nianliCardTitle')}
+            </h3>
+            <p className="flex-1 text-sm leading-relaxed text-white/60">
+              {t('nianliCardDesc')}
+            </p>
+            <span className="text-xs text-[var(--matang-gold-muted)] group-hover:text-[var(--matang-gold)] transition-colors">
+              {t('readMore')}
+            </span>
+          </Link>
+        </section>
+
         <Footer />
       </main>
     </div>

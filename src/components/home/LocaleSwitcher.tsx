@@ -36,7 +36,7 @@ export function LocaleSwitcher() {
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        className="flex size-9 items-center justify-center rounded-lg text-white/90 transition-colors hover:bg-white/10 hover:text-white"
+        className="flex size-9 items-center justify-center rounded-lg text-white/90 transition-colors hover:bg-white/10 hover:text-[var(--matang-gold)]"
         aria-label="切换语言"
         aria-expanded={open}
         aria-haspopup="true"

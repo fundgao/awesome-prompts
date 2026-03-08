@@ -41,7 +41,11 @@
     "card3Desc": "年例民俗、信仰文化与刘仙三太庙",
     "card4Title": "长山村",
     "card4Desc": "革命老区、杨瑞芬故居与宫罗岭潮乌洞",
-    "readMore": "查看详情 →"
+    "readMore": "查看详情 →",
+    "nianliTitle": "年例时间表",
+    "nianliCardTitle": "电白区年例时间表",
+    "nianliCardDesc": "各村镇年例日期汇总，可按村名或镇名搜索",
+    "nianliSearch": "搜索村名或镇名…"
   },
   "sections": {
     "overview": {

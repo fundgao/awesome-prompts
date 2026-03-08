@@ -41,7 +41,11 @@
     "card3Desc": "年例民俗、信仰文化與劉仙三太廟",
     "card4Title": "長山村",
     "card4Desc": "革命老區、楊瑞芬故居與宮羅嶺潮烏洞",
-    "readMore": "查看詳情 →"
+    "readMore": "查看詳情 →",
+    "nianliTitle": "年例時間表",
+    "nianliCardTitle": "電白區年例時間表",
+    "nianliCardDesc": "各村鎮年例日期匯總，可按村名或鎮名搜索",
+    "nianliSearch": "搜索村名或鎮名…"
   },
   "sections": {
     "overview": {
