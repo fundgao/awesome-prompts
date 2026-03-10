@@ -2,12 +2,9 @@
 # 文档: https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/overview/
 
 [build]
-  command = "pnpm run build"
+  command = "pnpm build"
 
 [build.environment]
   NODE_VERSION = "20"
   # pnpm 与 Next.js 兼容：允许依赖提升，避免构建时找不到模块
   PNPM_FLAGS = "--shamefully-hoist"
-
-[[plugins]]
-package = "@netlify/plugin-nextjs"
