@@ -4,7 +4,11 @@ import type { NextConfig } from "next";
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig: NextConfig = {
+  // Netlify 静态站点部署：输出到 out/
+  output: "export",
+  // 静态导出场景下避免 Next Image 优化依赖服务端
   images: {
+    unoptimized: true,
     remotePatterns: [
       { hostname: "images.unsplash.com" },
       { hostname: "placehold.co" },

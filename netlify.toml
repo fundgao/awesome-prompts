@@ -3,9 +3,123 @@
 
 [build]
   command = "pnpm build"
-  publish = ".next"
+  publish = "out"
 
 [build.environment]
   NODE_VERSION = "20"
   # pnpm 与 Next.js 兼容：允许依赖提升，避免构建时找不到模块
   PNPM_FLAGS = "--shamefully-hoist"
+
+# Next.js 静态导出（output: export）下，redirects 需要交给 Netlify 配置
+[[redirects]]
+  from = "/location"
+  to = "/overview"
+  status = 301
+
+[[redirects]]
+  from = "/transport"
+  to = "/overview"
+  status = 301
+
+[[redirects]]
+  from = "/economy"
+  to = "/overview"
+  status = 301
+
+[[redirects]]
+  from = "/population"
+  to = "/people"
+  status = 301
+
+[[redirects]]
+  from = "/culture"
+  to = "/people"
+  status = 301
+
+[[redirects]]
+  from = "/food"
+  to = "/people"
+  status = 301
+
+[[redirects]]
+  from = "/customs"
+  to = "/customs-faith"
+  status = 301
+
+[[redirects]]
+  from = "/faith"
+  to = "/customs-faith"
+  status = 301
+
+# locale 前缀版本
+[[redirects]]
+  from = "/zh-Hant/location"
+  to = "/zh-Hant/overview"
+  status = 301
+[[redirects]]
+  from = "/en/location"
+  to = "/en/overview"
+  status = 301
+
+[[redirects]]
+  from = "/zh-Hant/transport"
+  to = "/zh-Hant/overview"
+  status = 301
+[[redirects]]
+  from = "/en/transport"
+  to = "/en/overview"
+  status = 301
+
+[[redirects]]
+  from = "/zh-Hant/economy"
+  to = "/zh-Hant/overview"
+  status = 301
+[[redirects]]
+  from = "/en/economy"
+  to = "/en/overview"
+  status = 301
+
+[[redirects]]
+  from = "/zh-Hant/population"
+  to = "/zh-Hant/people"
+  status = 301
+[[redirects]]
+  from = "/en/population"
+  to = "/en/people"
+  status = 301
+
+[[redirects]]
+  from = "/zh-Hant/culture"
+  to = "/zh-Hant/people"
+  status = 301
+[[redirects]]
+  from = "/en/culture"
+  to = "/en/people"
+  status = 301
+
+[[redirects]]
+  from = "/zh-Hant/food"
+  to = "/zh-Hant/people"
+  status = 301
+[[redirects]]
+  from = "/en/food"
+  to = "/en/people"
+  status = 301
+
+[[redirects]]
+  from = "/zh-Hant/customs"
+  to = "/zh-Hant/customs-faith"
+  status = 301
+[[redirects]]
+  from = "/en/customs"
+  to = "/en/customs-faith"
+  status = 301
+
+[[redirects]]
+  from = "/zh-Hant/faith"
+  to = "/zh-Hant/customs-faith"
+  status = 301
+[[redirects]]
+  from = "/en/faith"
+  to = "/en/customs-faith"
+  status = 301
