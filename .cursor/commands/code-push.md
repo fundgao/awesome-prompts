@@ -1,1 +1,3 @@
-提交代码并 push
+git add .
+git commit
+git push
